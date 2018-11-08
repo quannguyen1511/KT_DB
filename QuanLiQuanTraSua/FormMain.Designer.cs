@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelMainDown = new System.Windows.Forms.Panel();
             this.panelMainDownRight = new System.Windows.Forms.Panel();
@@ -54,6 +55,7 @@
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lậpBáoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain.SuspendLayout();
             this.panelMainDown.SuspendLayout();
             this.panelMainDownRight.SuspendLayout();
@@ -237,7 +239,7 @@
             this.LbShopName.Name = "LbShopName";
             this.LbShopName.Size = new System.Drawing.Size(755, 68);
             this.LbShopName.TabIndex = 0;
-            this.LbShopName.Text = "Trà Sữa 3 Thành Viên";
+            this.LbShopName.Text = "Trà Sữa 3 Thành Viên ";
             this.LbShopName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelMenuStrip
@@ -283,12 +285,19 @@
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
             this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(236, 28);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
+            this.thôngTinTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.thôngTinTàiKhoảnToolStripMenuItem_Click);
             // 
             // lậpBáoCáoToolStripMenuItem
             // 
             this.lậpBáoCáoToolStripMenuItem.Name = "lậpBáoCáoToolStripMenuItem";
             this.lậpBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(236, 28);
             this.lậpBáoCáoToolStripMenuItem.Text = "Lập Báo cáo";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FormMain
             // 
@@ -350,5 +359,6 @@
         private System.Windows.Forms.Button btEnter;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.DataGridView dtgvMenu;
+        private System.Windows.Forms.Timer timer1;
     }
 }

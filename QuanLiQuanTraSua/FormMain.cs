@@ -45,5 +45,16 @@ namespace QuanLiQuanTraSua
                 fg.Show();
             }
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            LbShopName.Text = LbShopName.Text.Substring(1) + LbShopName.Text.Substring(0, 1);
+        }
+
+        private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormInfoAccount fia = new FormInfoAccount();
+            fia.Show();
+        }
     }
 }
