@@ -119,6 +119,12 @@
   <ItemGroup>
     <None Include="Resources\KìLân.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{b803fc18-e58a-46b7-8b01-501937d987d8}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

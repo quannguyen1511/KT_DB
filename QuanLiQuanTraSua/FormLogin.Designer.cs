@@ -46,15 +46,18 @@
             this.btLogin.TabIndex = 0;
             this.btLogin.Text = "Đăng nhập";
             this.btLogin.UseVisualStyleBackColor = true;
+            this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
             // btClose
             // 
+            this.btClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btClose.Location = new System.Drawing.Point(278, 164);
             this.btClose.Name = "btClose";
             this.btClose.Size = new System.Drawing.Size(96, 32);
             this.btClose.TabIndex = 1;
             this.btClose.Text = "Thoát";
             this.btClose.UseVisualStyleBackColor = true;
+            this.btClose.Click += new System.EventHandler(this.btClose_Click);
             // 
             // panelFromLogin
             // 
@@ -102,15 +105,19 @@
             // 
             this.txtPassWord.Location = new System.Drawing.Point(143, 113);
             this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.PasswordChar = '*';
             this.txtPassWord.Size = new System.Drawing.Size(231, 22);
             this.txtPassWord.TabIndex = 2;
             // 
             // FormLogin
             // 
+            this.AcceptButton = this.btLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.btClose;
             this.ClientSize = new System.Drawing.Size(651, 340);
+            this.ControlBox = false;
             this.Controls.Add(this.panelFromLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormLogin";
