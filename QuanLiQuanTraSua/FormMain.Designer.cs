@@ -266,6 +266,7 @@
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(103, 27);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click_1);
             // 
             // adminToolStripMenuItem
             // 
@@ -293,13 +294,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1360, 750);
+            this.ClientSize = new System.Drawing.Size(1360, 818);
+            this.ControlBox = false;
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trà sữa 3 Thành Viên";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMainDown.ResumeLayout(false);
             this.panelMainDownRight.ResumeLayout(false);

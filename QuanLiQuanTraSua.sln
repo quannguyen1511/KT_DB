@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLiQuanTraSua", "QuanLiQuanTraSua\QuanLiQuanTraSua.csproj", "{EE38A079-6BA7-4533-A1C6-21DD54B14824}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{B803FC18-E58A-46B7-8B01-501937D987D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{FD05284F-0451-4B9F-B4FE-CEFDD96DDB39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EE38A079-6BA7-4533-A1C6-21DD54B14824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE38A079-6BA7-4533-A1C6-21DD54B14824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE38A079-6BA7-4533-A1C6-21DD54B14824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B803FC18-E58A-46B7-8B01-501937D987D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B803FC18-E58A-46B7-8B01-501937D987D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B803FC18-E58A-46B7-8B01-501937D987D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B803FC18-E58A-46B7-8B01-501937D987D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD05284F-0451-4B9F-B4FE-CEFDD96DDB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD05284F-0451-4B9F-B4FE-CEFDD96DDB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD05284F-0451-4B9F-B4FE-CEFDD96DDB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD05284F-0451-4B9F-B4FE-CEFDD96DDB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
