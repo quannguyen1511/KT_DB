@@ -56,5 +56,12 @@ namespace QuanLiQuanTraSua
             FormInfoAccount fia = new FormInfoAccount();
             fia.Show();
         }
+
+        private void lậpBáoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReport frp = new FormReport();
+            frp.Show();
+
+        }
     }
 }

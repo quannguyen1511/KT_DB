@@ -46,18 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormAddAccount.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAddAccount.Designer.cs">
-      <DependentUpon>FormAddAccount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormEditAccount.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEditAccount.Designer.cs">
-      <DependentUpon>FormEditAccount.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormInfoAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,14 +64,14 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAddAccount.resx">
-      <DependentUpon>FormAddAccount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEditAccount.resx">
-      <DependentUpon>FormEditAccount.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormInfoAccount.resx">
       <DependentUpon>FormInfoAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

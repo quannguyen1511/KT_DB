@@ -30,19 +30,19 @@
         {
             this.panelFormInfoAccount = new System.Windows.Forms.Panel();
             this.panelInForm = new System.Windows.Forms.Panel();
+            this.btDeleteAccount = new System.Windows.Forms.Button();
+            this.btEditAccount = new System.Windows.Forms.Button();
+            this.btAddAccount = new System.Windows.Forms.Button();
+            this.txtDisPlayName = new System.Windows.Forms.TextBox();
+            this.txtPassWord1 = new System.Windows.Forms.TextBox();
+            this.txtAccount = new System.Windows.Forms.TextBox();
+            this.txtIdAccount = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelInfoAccount = new System.Windows.Forms.Panel();
-            this.txtIdAccount = new System.Windows.Forms.TextBox();
-            this.txtAccount = new System.Windows.Forms.TextBox();
-            this.txtPassWord1 = new System.Windows.Forms.TextBox();
-            this.txtDisPlayName = new System.Windows.Forms.TextBox();
-            this.btAddAccount = new System.Windows.Forms.Button();
-            this.btEditAccount = new System.Windows.Forms.Button();
-            this.btDeleteAccount = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panelFormInfoAccount.SuspendLayout();
             this.panelInForm.SuspendLayout();
@@ -80,6 +80,64 @@
             this.panelInForm.Name = "panelInForm";
             this.panelInForm.Size = new System.Drawing.Size(454, 423);
             this.panelInForm.TabIndex = 2;
+            // 
+            // btDeleteAccount
+            // 
+            this.btDeleteAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDeleteAccount.Location = new System.Drawing.Point(331, 292);
+            this.btDeleteAccount.Name = "btDeleteAccount";
+            this.btDeleteAccount.Size = new System.Drawing.Size(75, 46);
+            this.btDeleteAccount.TabIndex = 10;
+            this.btDeleteAccount.Text = "Xóa";
+            this.btDeleteAccount.UseVisualStyleBackColor = true;
+            // 
+            // btEditAccount
+            // 
+            this.btEditAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEditAccount.Location = new System.Drawing.Point(199, 293);
+            this.btEditAccount.Name = "btEditAccount";
+            this.btEditAccount.Size = new System.Drawing.Size(75, 46);
+            this.btEditAccount.TabIndex = 9;
+            this.btEditAccount.Text = "Sửa";
+            this.btEditAccount.UseVisualStyleBackColor = true;
+            // 
+            // btAddAccount
+            // 
+            this.btAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAddAccount.Location = new System.Drawing.Point(53, 293);
+            this.btAddAccount.Name = "btAddAccount";
+            this.btAddAccount.Size = new System.Drawing.Size(75, 45);
+            this.btAddAccount.TabIndex = 8;
+            this.btAddAccount.Text = "Thêm";
+            this.btAddAccount.UseVisualStyleBackColor = true;
+            // 
+            // txtDisPlayName
+            // 
+            this.txtDisPlayName.Location = new System.Drawing.Point(199, 189);
+            this.txtDisPlayName.Name = "txtDisPlayName";
+            this.txtDisPlayName.Size = new System.Drawing.Size(216, 22);
+            this.txtDisPlayName.TabIndex = 7;
+            // 
+            // txtPassWord1
+            // 
+            this.txtPassWord1.Location = new System.Drawing.Point(199, 138);
+            this.txtPassWord1.Name = "txtPassWord1";
+            this.txtPassWord1.Size = new System.Drawing.Size(216, 22);
+            this.txtPassWord1.TabIndex = 6;
+            // 
+            // txtAccount
+            // 
+            this.txtAccount.Location = new System.Drawing.Point(199, 89);
+            this.txtAccount.Name = "txtAccount";
+            this.txtAccount.Size = new System.Drawing.Size(216, 22);
+            this.txtAccount.TabIndex = 5;
+            // 
+            // txtIdAccount
+            // 
+            this.txtIdAccount.Location = new System.Drawing.Point(199, 47);
+            this.txtIdAccount.Name = "txtIdAccount";
+            this.txtIdAccount.Size = new System.Drawing.Size(216, 22);
+            this.txtIdAccount.TabIndex = 4;
             // 
             // label5
             // 
@@ -138,68 +196,6 @@
             this.panelInfoAccount.Name = "panelInfoAccount";
             this.panelInfoAccount.Size = new System.Drawing.Size(750, 351);
             this.panelInfoAccount.TabIndex = 0;
-            // 
-            // txtIdAccount
-            // 
-            this.txtIdAccount.Location = new System.Drawing.Point(199, 47);
-            this.txtIdAccount.Name = "txtIdAccount";
-            this.txtIdAccount.ReadOnly = true;
-            this.txtIdAccount.Size = new System.Drawing.Size(216, 22);
-            this.txtIdAccount.TabIndex = 4;
-            // 
-            // txtAccount
-            // 
-            this.txtAccount.Location = new System.Drawing.Point(199, 89);
-            this.txtAccount.Name = "txtAccount";
-            this.txtAccount.ReadOnly = true;
-            this.txtAccount.Size = new System.Drawing.Size(216, 22);
-            this.txtAccount.TabIndex = 5;
-            // 
-            // txtPassWord1
-            // 
-            this.txtPassWord1.Location = new System.Drawing.Point(199, 138);
-            this.txtPassWord1.Name = "txtPassWord1";
-            this.txtPassWord1.ReadOnly = true;
-            this.txtPassWord1.Size = new System.Drawing.Size(216, 22);
-            this.txtPassWord1.TabIndex = 6;
-            // 
-            // txtDisPlayName
-            // 
-            this.txtDisPlayName.Location = new System.Drawing.Point(199, 189);
-            this.txtDisPlayName.Name = "txtDisPlayName";
-            this.txtDisPlayName.ReadOnly = true;
-            this.txtDisPlayName.Size = new System.Drawing.Size(216, 22);
-            this.txtDisPlayName.TabIndex = 7;
-            // 
-            // btAddAccount
-            // 
-            this.btAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAddAccount.Location = new System.Drawing.Point(53, 293);
-            this.btAddAccount.Name = "btAddAccount";
-            this.btAddAccount.Size = new System.Drawing.Size(75, 45);
-            this.btAddAccount.TabIndex = 8;
-            this.btAddAccount.Text = "Thêm";
-            this.btAddAccount.UseVisualStyleBackColor = true;
-            // 
-            // btEditAccount
-            // 
-            this.btEditAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEditAccount.Location = new System.Drawing.Point(185, 293);
-            this.btEditAccount.Name = "btEditAccount";
-            this.btEditAccount.Size = new System.Drawing.Size(75, 46);
-            this.btEditAccount.TabIndex = 9;
-            this.btEditAccount.Text = "Sửa";
-            this.btEditAccount.UseVisualStyleBackColor = true;
-            // 
-            // btDeleteAccount
-            // 
-            this.btDeleteAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDeleteAccount.Location = new System.Drawing.Point(305, 294);
-            this.btDeleteAccount.Name = "btDeleteAccount";
-            this.btDeleteAccount.Size = new System.Drawing.Size(75, 46);
-            this.btDeleteAccount.TabIndex = 10;
-            this.btDeleteAccount.Text = "Xóa";
-            this.btDeleteAccount.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
