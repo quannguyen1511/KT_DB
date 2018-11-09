@@ -54,13 +54,13 @@ namespace QuanLiQuanTraSua
         private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormInfoAccount fia = new FormInfoAccount();
-            fia.Show();
+            fia.ShowDialog();
         }
 
         private void lậpBáoCáoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormReport frp = new FormReport();
-            frp.Show();
+            frp.ShowDialog();
 
         }
     }
