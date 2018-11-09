@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-
+using System.Data;
 namespace DAO
 {
    public class DataProvider
@@ -67,6 +67,21 @@ namespace DAO
             finally
             {
                 disconnect();
+            }
+        }
+        public SqlDataReader mysqlDataReader (string sql)
+        {
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            cmd.CommandType = CommandType.Text;
+            connect();
+            try
+            {
+                return (cmd.ExecuteReader());
+            }
+            catch (SqlException ex)
+            {
+
+                throw ex;
             }
         }
     }

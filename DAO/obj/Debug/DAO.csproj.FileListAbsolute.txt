@@ -8,3 +8,10 @@ C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\DAO\bin\Debug\DAO.pdb
 C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.dll
 C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DAO.dll
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.dll
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DTO.dll
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DTO.pdb

@@ -115,6 +115,10 @@
       <Project>{b803fc18-e58a-46b7-8b01-501937d987d8}</Project>
       <Name>BUS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{d5ffa1f7-c5db-4193-98fa-3fcf1d5cbb8a}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
