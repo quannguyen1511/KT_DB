@@ -124,6 +124,7 @@
             this.txtTotal.Location = new System.Drawing.Point(175, 20);
             this.txtTotal.Multiline = true;
             this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(189, 32);
             this.txtTotal.TabIndex = 1;
             // 
@@ -292,6 +293,7 @@
             this.lậpBáoCáoToolStripMenuItem.Name = "lậpBáoCáoToolStripMenuItem";
             this.lậpBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(236, 28);
             this.lậpBáoCáoToolStripMenuItem.Text = "Lập Báo cáo";
+            this.lậpBáoCáoToolStripMenuItem.Click += new System.EventHandler(this.lậpBáoCáoToolStripMenuItem_Click);
             // 
             // timer1
             // 

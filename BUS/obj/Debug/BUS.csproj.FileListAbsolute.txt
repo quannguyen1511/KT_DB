@@ -12,3 +12,10 @@ C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\bin\Debug\DAO.pdb
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.pdb
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\bin\Debug\BUS.dll
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\bin\Debug\BUS.pdb
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\bin\Debug\DAO.dll
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\bin\Debug\DAO.pdb
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.dll
+C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.pdb

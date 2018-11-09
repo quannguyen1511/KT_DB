@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLiQuanTraSua
 {
-    public partial class FormEditAccount : Form
+    public partial class FormReport : Form
     {
-        public FormEditAccount()
+        public FormReport()
         {
             InitializeComponent();
         }
