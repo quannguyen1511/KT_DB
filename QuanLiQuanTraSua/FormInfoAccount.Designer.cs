@@ -44,12 +44,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelInfoAccount = new System.Windows.Forms.Panel();
             this.dtgvInfoAccount = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelFormInfoAccount.SuspendLayout();
             this.panelInForm.SuspendLayout();
             this.panelInfoAccount.SuspendLayout();
@@ -206,48 +200,12 @@
             // dtgvInfoAccount
             // 
             this.dtgvInfoAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvInfoAccount.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Id,
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dtgvInfoAccount.Location = new System.Drawing.Point(3, 3);
             this.dtgvInfoAccount.Name = "dtgvInfoAccount";
+            this.dtgvInfoAccount.ReadOnly = true;
             this.dtgvInfoAccount.RowTemplate.Height = 24;
             this.dtgvInfoAccount.Size = new System.Drawing.Size(744, 345);
             this.dtgvInfoAccount.TabIndex = 0;
-            // 
-            // Id
-            // 
-            this.Id.HeaderText = "Id";
-            this.Id.Name = "Id";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "UserName";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "PassWord";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "DisplayName";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "CountDay";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "CountMonth";
-            this.Column5.Name = "Column5";
             // 
             // FormInfoAccount
             // 
@@ -288,11 +246,5 @@
         private System.Windows.Forms.TextBox txtAccount;
         private System.Windows.Forms.TextBox txtIdAccount;
         private System.Windows.Forms.DataGridView dtgvInfoAccount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

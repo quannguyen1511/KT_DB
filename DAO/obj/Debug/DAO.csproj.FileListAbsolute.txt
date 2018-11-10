@@ -15,3 +15,5 @@ C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\obj\Debug\DAO.pdb
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DTO.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\DAO\bin\Debug\DTO.pdb
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\DAO.dll
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\DAO.pdb
