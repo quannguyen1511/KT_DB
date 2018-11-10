@@ -21,3 +21,5 @@ C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.dll
 C:\Users\ASUS\Desktop\QLTraSua\Quan-Ly-Tra-Sua\BUS\obj\Debug\BUS.pdb
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\bin\Debug\DTO.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\bin\Debug\DTO.pdb
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\BUS.dll
+C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\BUS.pdb
