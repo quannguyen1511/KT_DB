@@ -29,190 +29,170 @@
         private void InitializeComponent()
         {
             this.panelFormInfoAccount = new System.Windows.Forms.Panel();
-            this.panelInForm = new System.Windows.Forms.Panel();
-            this.btDeleteAccount = new System.Windows.Forms.Button();
-            this.btEditAccount = new System.Windows.Forms.Button();
-            this.btAddAccount = new System.Windows.Forms.Button();
-            this.txtDisPlayName = new System.Windows.Forms.TextBox();
-            this.txtPassWord1 = new System.Windows.Forms.TextBox();
-            this.txtAccount = new System.Windows.Forms.TextBox();
-            this.txtIdAccount = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panelInfoAccount = new System.Windows.Forms.Panel();
             this.dtgvInfoAccount = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtDisplayName = new System.Windows.Forms.TextBox();
+            this.btAddAccount = new System.Windows.Forms.Button();
             this.panelFormInfoAccount.SuspendLayout();
-            this.panelInForm.SuspendLayout();
-            this.panelInfoAccount.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInfoAccount)).BeginInit();
             this.SuspendLayout();
             // 
             // panelFormInfoAccount
             // 
-            this.panelFormInfoAccount.BackgroundImage = global::QuanLiQuanTraSua.Properties.Resources.KìLân;
             this.panelFormInfoAccount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelFormInfoAccount.Controls.Add(this.panelInForm);
-            this.panelFormInfoAccount.Controls.Add(this.label1);
-            this.panelFormInfoAccount.Controls.Add(this.panelInfoAccount);
-            this.panelFormInfoAccount.Location = new System.Drawing.Point(12, 12);
+            this.panelFormInfoAccount.Controls.Add(this.panel3);
+            this.panelFormInfoAccount.Controls.Add(this.panel2);
+            this.panelFormInfoAccount.Controls.Add(this.panel1);
+            this.panelFormInfoAccount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFormInfoAccount.Location = new System.Drawing.Point(0, 0);
             this.panelFormInfoAccount.Name = "panelFormInfoAccount";
-            this.panelFormInfoAccount.Size = new System.Drawing.Size(1217, 429);
+            this.panelFormInfoAccount.Size = new System.Drawing.Size(1239, 486);
             this.panelFormInfoAccount.TabIndex = 0;
             // 
-            // panelInForm
+            // panel1
             // 
-            this.panelInForm.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panelInForm.Controls.Add(this.btDeleteAccount);
-            this.panelInForm.Controls.Add(this.btEditAccount);
-            this.panelInForm.Controls.Add(this.btAddAccount);
-            this.panelInForm.Controls.Add(this.txtDisPlayName);
-            this.panelInForm.Controls.Add(this.txtPassWord1);
-            this.panelInForm.Controls.Add(this.txtAccount);
-            this.panelInForm.Controls.Add(this.txtIdAccount);
-            this.panelInForm.Controls.Add(this.label5);
-            this.panelInForm.Controls.Add(this.label4);
-            this.panelInForm.Controls.Add(this.label3);
-            this.panelInForm.Controls.Add(this.label2);
-            this.panelInForm.Location = new System.Drawing.Point(760, 3);
-            this.panelInForm.Name = "panelInForm";
-            this.panelInForm.Size = new System.Drawing.Size(454, 423);
-            this.panelInForm.TabIndex = 2;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1239, 83);
+            this.panel1.TabIndex = 0;
             // 
-            // btDeleteAccount
+            // panel2
             // 
-            this.btDeleteAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDeleteAccount.Location = new System.Drawing.Point(301, 293);
-            this.btDeleteAccount.Name = "btDeleteAccount";
-            this.btDeleteAccount.Size = new System.Drawing.Size(114, 46);
-            this.btDeleteAccount.TabIndex = 10;
-            this.btDeleteAccount.Text = "Xóa";
-            this.btDeleteAccount.UseVisualStyleBackColor = true;
+            this.panel2.Controls.Add(this.btAddAccount);
+            this.panel2.Controls.Add(this.txtDisplayName);
+            this.panel2.Controls.Add(this.txtPassword);
+            this.panel2.Controls.Add(this.txtUserName);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(761, 83);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(478, 403);
+            this.panel2.TabIndex = 1;
             // 
-            // btEditAccount
+            // panel3
             // 
-            this.btEditAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEditAccount.Location = new System.Drawing.Point(181, 293);
-            this.btEditAccount.Name = "btEditAccount";
-            this.btEditAccount.Size = new System.Drawing.Size(114, 46);
-            this.btEditAccount.TabIndex = 9;
-            this.btEditAccount.Text = "Sửa";
-            this.btEditAccount.UseVisualStyleBackColor = true;
-            // 
-            // btAddAccount
-            // 
-            this.btAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAddAccount.Location = new System.Drawing.Point(61, 294);
-            this.btAddAccount.Name = "btAddAccount";
-            this.btAddAccount.Size = new System.Drawing.Size(114, 45);
-            this.btAddAccount.TabIndex = 8;
-            this.btAddAccount.Text = "Thêm";
-            this.btAddAccount.UseVisualStyleBackColor = true;
-            // 
-            // txtDisPlayName
-            // 
-            this.txtDisPlayName.Location = new System.Drawing.Point(199, 189);
-            this.txtDisPlayName.Name = "txtDisPlayName";
-            this.txtDisPlayName.Size = new System.Drawing.Size(216, 22);
-            this.txtDisPlayName.TabIndex = 7;
-            // 
-            // txtPassWord1
-            // 
-            this.txtPassWord1.Location = new System.Drawing.Point(199, 138);
-            this.txtPassWord1.Name = "txtPassWord1";
-            this.txtPassWord1.Size = new System.Drawing.Size(216, 22);
-            this.txtPassWord1.TabIndex = 6;
-            // 
-            // txtAccount
-            // 
-            this.txtAccount.Location = new System.Drawing.Point(199, 89);
-            this.txtAccount.Name = "txtAccount";
-            this.txtAccount.Size = new System.Drawing.Size(216, 22);
-            this.txtAccount.TabIndex = 5;
-            // 
-            // txtIdAccount
-            // 
-            this.txtIdAccount.Location = new System.Drawing.Point(199, 47);
-            this.txtIdAccount.Name = "txtIdAccount";
-            this.txtIdAccount.Size = new System.Drawing.Size(216, 22);
-            this.txtIdAccount.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(49, 49);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 20);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "ID:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 189);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Tên hiển thị:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(49, 138);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Mật khẩu:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(49, 91);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tài Khoản:";
+            this.panel3.Controls.Add(this.dtgvInfoAccount);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 83);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(761, 403);
+            this.panel3.TabIndex = 2;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(751, 69);
-            this.label1.TabIndex = 1;
+            this.label1.Size = new System.Drawing.Size(1239, 83);
+            this.label1.TabIndex = 0;
             this.label1.Text = "Thông Tin Tài Khoản";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panelInfoAccount
-            // 
-            this.panelInfoAccount.Controls.Add(this.dtgvInfoAccount);
-            this.panelInfoAccount.Location = new System.Drawing.Point(4, 75);
-            this.panelInfoAccount.Name = "panelInfoAccount";
-            this.panelInfoAccount.Size = new System.Drawing.Size(750, 351);
-            this.panelInfoAccount.TabIndex = 0;
             // 
             // dtgvInfoAccount
             // 
             this.dtgvInfoAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvInfoAccount.Location = new System.Drawing.Point(3, 3);
+            this.dtgvInfoAccount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvInfoAccount.Location = new System.Drawing.Point(0, 0);
             this.dtgvInfoAccount.Name = "dtgvInfoAccount";
-            this.dtgvInfoAccount.ReadOnly = true;
             this.dtgvInfoAccount.RowTemplate.Height = 24;
-            this.dtgvInfoAccount.Size = new System.Drawing.Size(744, 345);
+            this.dtgvInfoAccount.Size = new System.Drawing.Size(761, 403);
             this.dtgvInfoAccount.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(75, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tài khoản:";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(79, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 20);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Mật khẩu:";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(75, 210);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 20);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Tên hiển thị:";
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.Location = new System.Drawing.Point(215, 58);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(203, 22);
+            this.txtUserName.TabIndex = 5;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(215, 136);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(203, 22);
+            this.txtPassword.TabIndex = 6;
+            // 
+            // txtDisplayName
+            // 
+            this.txtDisplayName.Location = new System.Drawing.Point(215, 210);
+            this.txtDisplayName.Name = "txtDisplayName";
+            this.txtDisplayName.Size = new System.Drawing.Size(203, 22);
+            this.txtDisplayName.TabIndex = 7;
+            // 
+            // btAddAccount
+            // 
+            this.btAddAccount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAddAccount.Location = new System.Drawing.Point(321, 293);
+            this.btAddAccount.Name = "btAddAccount";
+            this.btAddAccount.Size = new System.Drawing.Size(97, 47);
+            this.btAddAccount.TabIndex = 8;
+            this.btAddAccount.Text = "Thêm";
+            this.btAddAccount.UseVisualStyleBackColor = true;
             // 
             // FormInfoAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1241, 453);
+            this.ClientSize = new System.Drawing.Size(1239, 486);
             this.Controls.Add(this.panelFormInfoAccount);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormInfoAccount";
@@ -220,9 +200,10 @@
             this.Text = "Thông Tin Tài Khoản";
             this.Load += new System.EventHandler(this.FormInfoAccount_Load);
             this.panelFormInfoAccount.ResumeLayout(false);
-            this.panelInForm.ResumeLayout(false);
-            this.panelInForm.PerformLayout();
-            this.panelInfoAccount.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInfoAccount)).EndInit();
             this.ResumeLayout(false);
 
@@ -231,20 +212,17 @@
         #endregion
 
         private System.Windows.Forms.Panel panelFormInfoAccount;
-        private System.Windows.Forms.Panel panelInForm;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView dtgvInfoAccount;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btAddAccount;
+        private System.Windows.Forms.TextBox txtDisplayName;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panelInfoAccount;
-        private System.Windows.Forms.Button btDeleteAccount;
-        private System.Windows.Forms.Button btEditAccount;
-        private System.Windows.Forms.Button btAddAccount;
-        private System.Windows.Forms.TextBox txtDisPlayName;
-        private System.Windows.Forms.TextBox txtPassWord1;
-        private System.Windows.Forms.TextBox txtAccount;
-        private System.Windows.Forms.TextBox txtIdAccount;
-        private System.Windows.Forms.DataGridView dtgvInfoAccount;
     }
 }
