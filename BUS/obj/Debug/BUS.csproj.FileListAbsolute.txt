@@ -23,3 +23,8 @@ C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\bin\Debug\DTO.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\BUS\bin\Debug\DTO.pdb
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\BUS.dll
 C:\Users\ASUS\Desktop\New folder\Quan-Ly-Tra-Sua\bin\Debug\BUS.pdb
+E:\New folder\bin\Debug\BUS.dll
+E:\New folder\bin\Debug\BUS.pdb
+E:\New folder\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\New folder\BUS\obj\Debug\BUS.dll
+E:\New folder\BUS\obj\Debug\BUS.pdb

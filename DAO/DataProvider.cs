@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 namespace DAO
 {
-   public class DataProvider
+    public class DataProvider
     {
         SqlConnection cn;
         public DataProvider()
@@ -69,20 +69,45 @@ namespace DAO
                 disconnect();
             }
         }
-        public SqlDataReader mysqlDataReader (string sql)
+        public SqlDataReader ExecuteReader(string sql) //dùng để đọc dữ liệu từ câu truy vấn
         {
-            SqlCommand cmd = new SqlCommand(sql, cn);
-            cmd.CommandType = CommandType.Text;
-            connect();
             try
             {
-                return (cmd.ExecuteReader());
+                SqlCommand cmd = new SqlCommand(sql, cn);
+                return cmd.ExecuteReader();
+            }
+            catch (InvalidCastException ex)
+            {
+                throw ex;
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw ex;
             }
             catch (SqlException ex)
             {
-
                 throw ex;
             }
         }
+        public void RunSQL(string sql)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand(sql, cn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (InvalidCastException ex)
+            {
+                throw ex;
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw ex;
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }//end of Add
     }
 }
